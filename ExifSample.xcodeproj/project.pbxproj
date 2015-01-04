@@ -152,7 +152,7 @@
 		36BB4B51160AE176009D8E0B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0640;
 				TargetAttributes = {
 					36BB4B59160AE176009D8E0B = {
 						DevelopmentTeam = 3CCNMX7TC9;
@@ -243,6 +243,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -280,6 +281,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -307,6 +309,7 @@
 				INFOPLIST_FILE = "ExifSample/ExifSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7, arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -323,6 +326,7 @@
 				INFOPLIST_FILE = "ExifSample/ExifSample-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				VALID_ARCHS = "armv7, arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
